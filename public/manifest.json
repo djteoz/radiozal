@@ -1,0 +1,27 @@
+{
+  "name": "Радио Зал",
+  "short_name": "Радио Зал",
+  "description": "Агрегатор интернет-радиостанций. Слушайте радио, вращая глобус.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b0b19",
+  "theme_color": "#00c864",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/logo.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
