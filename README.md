@@ -1,6 +1,6 @@
 # Радио Зал — radiozal.ru
 
-Агрегатор интернет-радиостанций с интерактивным 3D-глобусом в стиле [Radio Garden](https://radio.garden).
+Агрегатор интернет-радиостанций с интерактивным 3D-глобусом.
 
 Вращайте глобус, выбирайте город и слушайте радио со всего мира.
 
@@ -12,7 +12,7 @@
 - **TypeScript 5** (strict)
 - **MapLibre GL v5** — 3D-глобус (projection: globe, MapTiler satellite tiles)
 - **SQLite** (better-sqlite3) — база станций
-- **Atlas Grotesk** — шрифт (как в Radio Garden)
+- **Atlas Grotesk** — шрифт
 - **Lingui** — i18n (16 языков, включая русский)
 
 ## Статистика базы
@@ -50,10 +50,10 @@ NEXT_PUBLIC_MAPTILER_KEY=your_maptiler_api_key
 ## Архитектура
 
 ### Frontend
-Radio Garden-совместимый фронтенд (JS-бандлы, CSS, шрифты) в `public/assets/b/` и `public/fonts/`. Middleware перенаправляет все страничные запросы на `rg.html`.
+JS-бандлы, CSS, шрифты в `public/assets/b/` и `public/fonts/`. Middleware перенаправляет все страничные запросы на `rg.html`.
 
 ### Backend API
-11+ эндпоинтов в формате Radio Garden API:
+11+ эндпоинтов:
 
 | Эндпоинт | Описание |
 |----------|----------|
@@ -117,7 +117,7 @@ public/
 - [ ] Миграция на PostgreSQL
 - [ ] Деплой на VPS (Timeweb Cloud, Ubuntu 24.04)
 - [ ] Docker + Nginx + HTTPS (Let's Encrypt)
-- [ ] Замена иностранных соцсетей в Share на российские (VK, Telegram)
+- [ ] Добавить VK и ОК в меню Share
 
 ## Домен
 
